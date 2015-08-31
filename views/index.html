@@ -5,18 +5,36 @@
     <meta charset="UTF-8">
     <title>Delta Shoutouts</title>
 
+    <link rel="stylesheet" href="/stylesheets/bootstrap.min.css">
+    <link rel="stylesheet" href="/stylesheets/bootstrap-theme.min.css">
     <link rel="stylesheet" href="/stylesheets/style.css">
 
 </head>
 
 <body>
-    <h1>Delta Shoutouts:</h1>
-    <h2>They'll pump you up!</h2>
-    <button id="showMe">SHOW ME SOME LOVE</button>
-    <div id="content"></div>
 
-    <script src="https://code.jquery.com/jquery-2.1.4.min.js" type="text/javascript"></script>
-    <script src="/javascripts/script.js" type="text/javascript"></script>
+<div class="container">
+    <h1 class="page-header">Delta Shoutouts  <small>They'll pump you up!</small></h1>
+
+    <div class="love">
+        <button type="button" class="btn btn-lg" id="showMe">SHOW 'EM SOME LOVE</button>
+        <div id="content"></div>
+    </div>
+
+    <div class="nav">
+        <center><div class="btn-group btn-group-lg" role="group" aria-label="...">
+            <button type="button" class="btn btn-default" id="oldLove"> << </button>
+            <button type="button" class="btn btn-default" id="noBtn">More Love</button>
+            <button type="button" class="btn btn-default" id="newLove"> >> </button>
+        </div></center>
+    </div>
+
+</div>
+
+<script src="https://code.jquery.com/jquery-2.1.4.min.js" type="text/javascript"></script>
+<script src="/javascripts/bootstrap.min.js" type="text/javascript"></script>
+<script src="/javascripts/script.js" type="text/javascript"></script>
+
 </body>
 
 </html>

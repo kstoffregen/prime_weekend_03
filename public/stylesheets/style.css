@@ -3,6 +3,22 @@ body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
-a {
-  color: #00B7FF;
+/*#content {*/
+  /*background-size: 400px 400px;*/
+/*}*/
+
+.love {
+  margin: auto;
+  width: 400px;
+  height: 400px;
+  background-color: #269abc;
+  padding: 50px;
+  text-align: center;
+  vertical-align: middle;
 }
+
+
+
+/*.shoutdiv {*/
+  /*margin: auto;*/
+/*}*/
