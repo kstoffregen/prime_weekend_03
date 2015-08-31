@@ -83,7 +83,7 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="480" />
+    <option name="x" value="2" />
     <option name="y" value="23" />
     <option name="width" value="960" />
     <option name="height" value="828" />
@@ -294,7 +294,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="480" y="23" width="960" height="828" extended-state="0" />
+    <frame x="2" y="23" width="960" height="828" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32880434" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
