@@ -21,7 +21,7 @@ $(document).ready(function(){
         $('#love').slideDown();
         $shoutName.text(shoutArray[i].name);
         $shoutMsg.text(shoutArray[i].shoutout);
-        $shoutDiv.append($shoutName).append($shoutMsg).addClass('shoutdiv');
+        $shoutDiv.addClass('shoutdiv').append($shoutName).append($shoutMsg);
         $results.append($shoutDiv);
         $('#love').slideUp();
     }

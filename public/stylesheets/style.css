@@ -17,8 +17,17 @@ body {
   vertical-align: middle;
 }
 
+button .showMe {
+  position:relative;
+  top:50%;
+  left:50%;
+}
 
 
-/*.shoutdiv {*/
-  /*margin: auto;*/
-/*}*/
+.shoutdiv {
+  vertical-align: middle;
+}
+
+.nav {
+  padding: 20px;
+}
